@@ -12,7 +12,15 @@
     <Version>1.0.2 -preview</Version>
     <AssemblyName>Daenet.DurableTask.SqlInstanceStoreProvider</AssemblyName>
     <RootNamespace>Daenet.DurableTask.SqlInstanceStoreProvider</RootNamespace>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Daenet.Common.Sql" Version="1.0.1" />
