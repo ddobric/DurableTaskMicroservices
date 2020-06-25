@@ -16,7 +16,15 @@
     <PackageId>Daenet.DurableTaskMicroservices.Common</PackageId>
     <AssemblyName>Daenet.DurableTaskMicroservices.Common</AssemblyName>
     <RootNamespace>Daenet.DurableTaskMicroservices.Common</RootNamespace>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <Compile Remove="Entities\OrchestrationInput.cs" />
